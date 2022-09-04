@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: brown;
+    background-color: rgb(19, 130, 194);
 }
 
 a {
@@ -63,19 +63,49 @@ a {
     background-color: aqua;
 }
 
-.items {
+.hidden-menu {
     background-color: rgb(80, 37, 37);
     width: 100%;
     height: 60px;
     display: none;
-    transition: 0.3s;
+    transition: all 0.2s ease 0s;
+
 }
 
-.items.active {
-    background-color: rgb(80, 37, 37);
+.hidden-menu.active {
+    background-color: rgb(19, 130, 194);
     width: 100%;
-    height: 60px;
+    height: 100px;
     display: block;
+    transition: all 0.2s ease 0s;
+}
+
+.hidden-menu button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color: rgb(76, 172, 172);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar input {
+    background-color: aqua;
+    outline: none;
+}
+
+@media(min-width:769px) {
+    .hidden-menu.active {
+        display: none;
+    }
 }
 
 
