@@ -8,15 +8,21 @@
 }
 
 header {
-    background-color: rgb(19, 130, 194);
+    background-color: rgb(38, 39, 39);
+    -webkit-box-shadow: 0px 7px 15px 0px #3983B8; 
+    box-shadow: 0px 7px 15px 0px #3983B8;
 }
 
 a {
     color: white;
 }
 
+body {
+    background-color: #363636;
+}
+
 .navbar {
-    min-height: 70px;
+    min-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +37,7 @@ a {
 }
 
 .nav-branding {
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 .nav-link {
@@ -45,22 +51,30 @@ a {
 .hamburger {
     display: none;
     cursor: pointer;
+    border: 1px solid rgb(65, 62, 62);
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(38, 39, 39);
+    margin-right: 10px;
+    outline: 10px;
 }
 
 .bar {
     display: block;
     width: 25px;
-    height: 3px;
+    height: 2px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(80, 37, 37);
+    background-color: rgb(175, 160, 160);
 }
 
 .main {
     width: 95%;
     height: 100vh;
-    background-color: aqua;
+    background-color: rgba(0, 255, 128, 0.014);
+    -webkit-box-shadow: 0px 7px 15px 0px #3983B8; 
+    box-shadow: 0px 7px 15px 0px #3983B8;
 }
 
 .hidden-menu {
@@ -68,38 +82,66 @@ a {
     width: 100%;
     height: 60px;
     display: none;
-    transition: all 0.2s ease 0s;
+    transition: all 5s ease 1s;
 
 }
 
 .hidden-menu.active {
-    background-color: rgb(19, 130, 194);
+    background-color: rgb(38, 39, 39);
     width: 100%;
     height: 100px;
     display: block;
-    transition: all 0.2s ease 0s;
+    transition: all 5s ease 1s;
+    justify-content: center;
+    display: flex;
 }
 
 .hidden-menu button {
     width: 100px;
-    height: 30px;
+    height: 35px;
+    font-size: 13px;
     border: none;
     border-radius: 3px;
+    color: white;
     cursor: pointer;
     justify-content: space-between;
-    background-color: rgb(76, 172, 172);
+    background-color: rgb(80, 121, 209);
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .search-bar input {
-    background-color: aqua;
-    outline: none;
+    background-color: rgb(24, 26, 26);
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search input {
+    background-color: rgb(24, 26, 26);
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 20px;
+    position: absolute;
+    top: 11%;
 }
 
 @media(min-width:769px) {
