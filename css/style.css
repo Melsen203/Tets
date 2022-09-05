@@ -109,7 +109,17 @@ body {
 }
 
 .content {
-    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    min-height: 30px;
+    max-height: 70px;
+}
+
+.content button {
+    margin-right: 5px;
 }
 
 .search-bar input {
@@ -135,13 +145,9 @@ body {
 }
 
 .search-bar {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
     height: 20px;
-    position: absolute;
-    top: 11%;
+    margin: 0 auto;
+
 }
 
 @media(min-width:769px) {
