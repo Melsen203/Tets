@@ -1,0 +1,28 @@
+.menu-box {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #24252a;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-box a {
+    color: rgb(80, 121, 209);
+    margin-left: 0px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .menu-box  {
+        width: 100%;
+    }
+}

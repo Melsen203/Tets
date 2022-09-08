@@ -14,63 +14,99 @@ body {
 .content {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 50%;
     background-color: #24252a;
-    margin: 0 auto;
+    margin: 2px auto;
     padding: 10px;
 }
 
-.image-item {
-    width: 20%;
-    text-align: center;
-    margin-top: 20px;
+.name-wrap {
     display: flex;
     flex-direction: column;
+    width: 200px;
+
 }
 
-.image-item h2 {
-   color: white;
+.name-wrap a button {
+    padding: 10px;
+    background-color: rgb(80, 121, 209);
+    color: white;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
 }
 
-.image-item img {
-    width: 190px;
-    height: 250px;
-    margin: 0 auto;
+.name-wrap a button:hover {
+    background-color: rgb(53, 83, 148);
+}
+
+.name-wrap h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.name-wrap img {
+    width: 200px;
+    height: 270px;
     border: 1px solid #263c5a;
     border-radius: 5px;
 }
 
 .description {
-    color: white;
-    margin: 50px auto;
-    border: 1px solid #263c5a;
+    width: 70%;
+    height: 300px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
-    width: 65%;
-    
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .desc-wrap {
-    color: aliceblue;
-    padding: 20px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-@media only screen and (max-width: 1300px) {
-    .content {
+.desc-wrap p {
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: rgb(80, 121, 209);
+    margin-right: 10px;
+    cursor: default;
+}
+
+.genres {
+    margin-left: 10px;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.genres a {
+    color: white;
+    background-color: rgb(80, 121, 209);
+    padding: 4px 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease 0s;
+}
+
+.genres a:hover {
+    background-color: rgb(53, 83, 148);
+}
+
+@media only screen and (max-width: 780px) {
+    .content  {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 1300px) {
-    .image-item {
-        justify-content: center;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    .description {
-        width: 90%;
-    }
-}
