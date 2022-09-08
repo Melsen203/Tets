@@ -37,6 +37,7 @@ body {
     width: 100%;
     cursor: pointer;
     transition: all 0.2s ease 0s;
+    font-size: 15px;
 }
 
 .name-wrap a button:hover {
@@ -97,7 +98,6 @@ body {
     background-color: rgb(80, 121, 209);
     padding: 4px 5px;
     border-radius: 5px;
-    transition: all 0.2s ease 0s;
 }
 
 .genres a:hover {
