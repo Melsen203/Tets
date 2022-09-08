@@ -1,0 +1,50 @@
+.name-cap {
+    color: rgb(68, 131, 194);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-cap h3 {
+    padding: 15px;
+}
+
+.cap {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(68, 131, 194);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.chapters {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.chapters.active {
+    flex-direction: column-reverse;
+}
+
+.item-cap {
+    width: 99%;
+    color: white;
+    padding: 10px;
+}
+
+.item-cap a {
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item-cap p:hover {
+    color: aqua;
+}

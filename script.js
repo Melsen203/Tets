@@ -1,7 +1,7 @@
-const hamburger = document.querySelector(".riordina");
-const navbar = document.querySelector(".desc-wrap");
+const cap = document.querySelector(".cap");
+const chapters = document.querySelector(".chapters");
 
-hamburger.addEventListener ("click", () => {
+cap.addEventListener ("click", () => {
     hamburger.classList.toggle("active");
-    navbar.classList.toggle("active");
+    chapters.classList.toggle("active");
 } )
