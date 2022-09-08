@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.plot p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plot h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.plot {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgb(80, 121, 209);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .plot  {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .plot p  {
+        font-size: 13px;
+    }
+}
