@@ -170,7 +170,7 @@ hr {
 
 @media only screen and (max-width: 1300px) {
     .help-items  {
-        justify-content: left;
+        justify-content: center;
     }
 }
 
