@@ -43,14 +43,12 @@ header a {
 
 .hamburger {
     display: none;
-    float: right;
     cursor: pointer;
     border: 1px solid rgb(65, 62, 62);
     padding: 7px;
     border-radius: 7px;
     background-color: #24252a;
     margin-right: 10px;
-    outline: 10px;
 }
 
 .bar {
@@ -159,6 +157,8 @@ header a {
 @media(max-width:768px){
     .hamburger {
         display: block;
+        float: right;
+        
     }
 
     .hamburger.active .bar:nth-child(2){
