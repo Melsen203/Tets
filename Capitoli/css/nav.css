@@ -156,8 +156,9 @@ header a {
 
 @media(max-width:768px){
     .hamburger {
-        display: block;
-        float: right;
+        display: flex;
+        justify-content: right;
+        width: 30px;
         
     }
 
