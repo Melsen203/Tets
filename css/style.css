@@ -217,8 +217,13 @@ hr {
     color: white;
  }
 
- .footer-content {
-    margin-left: 20px;
+ .footer-content a {
+    color: white;
+ }
+
+ .footer-content svg {
+    background-color: #263c5a;
+    margin: 10px;
  }
 
  footer {
