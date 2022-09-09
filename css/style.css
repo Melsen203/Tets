@@ -21,12 +21,34 @@ body {
     padding: 5px;
 }
 
+#content {
+    width: 50%;
+    background-color: #24252a;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+    #content  {
+        width: 100%;
+    }
+}
+
+.name-box {
+    color: rgb(68, 131, 194);
+    width: 100%;
+}
+
+.name-box h3 {
+    padding: 15px;
+    font-size: 20px;
+}
+
 .name-wrap {
     display: flex;
     flex-direction: column;
     width: 200px;
     margin: 0 auto;
-
 }
 
 .name-wrap a button {
