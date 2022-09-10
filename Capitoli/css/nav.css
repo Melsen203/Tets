@@ -186,6 +186,5 @@ header a {
     .nav-menu.active {
         display: block;
         display: flex;
-        justify-content: right;
     }
 }
