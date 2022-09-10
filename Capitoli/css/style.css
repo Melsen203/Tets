@@ -76,6 +76,36 @@ body {
     flex-direction: column;
     margin: 0 auto;
     border: 1px solid rgb(65, 62, 62);
+    background-color: #212227;
+}
+
+#content {
+    background-color: #24252a;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+    #content  {
+        width: 100%;
+    }
+}
+
+.name-box {
+    color: rgb(68, 131, 194);
+    width: 100%;
+}
+
+.name-box h3 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: white;
 }
 
 .content img {
@@ -99,8 +129,20 @@ select {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    #content  {
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .content  {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #content  {
         width: 80%;
     }
 }
@@ -111,6 +153,14 @@ select {
         width: 40%;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    #content  {
+        width: 40%;
+    }
+}
+
+
 
 
 .menu-box {
@@ -148,5 +198,93 @@ select {
 
 hr {
     border: 1px solid rgb(80, 121, 209);
+}
+
+.footer {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #24252a;
+}
+
+.footer-content {
+    color: rgb(80, 121, 209);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-links {
+    flex-direction: column;
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a {
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-box {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-box  {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-content  {
+        width: 90%;
+    }
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer-under-box {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-under-box h2 {
+    font-size: 17px;
+}
+
+.footer-under-box p {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.fa-brands:hover {
+    color: rgb(80, 121, 209);
 }
 
