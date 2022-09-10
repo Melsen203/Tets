@@ -212,7 +212,7 @@ hr {
 }
 
 .footer-content {
-    color: white;
+    color: rgb(80, 121, 209);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -251,6 +251,8 @@ hr {
     width: 20%;
     margin: 0 auto;
     padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -276,7 +278,6 @@ hr {
     color: white;
     text-align: center;
     width: 100%;
-    margin: 0px auto;
 }
 
 .footer-under-box h2 {
