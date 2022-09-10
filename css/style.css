@@ -205,5 +205,85 @@ hr {
     }
 }
 
+.footer {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #24252a;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-links {
+    flex-direction: column;
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a {
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-box {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-box  {
+        width: 90%;
+    }
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer-under-box {
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0px auto;
+}
+
+.footer-under-box h2 {
+    font-size: 17px;
+}
+
+.footer-under-box p {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.fa-brands:hover {
+    color: rgb(80, 121, 209);
+}
 
 
