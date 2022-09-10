@@ -259,6 +259,12 @@ hr {
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    .footer-content  {
+        width: 90%;
+    }
+}
+
 .fa-brands {
     font-size: 30px;
     padding: 10px;
@@ -269,7 +275,7 @@ hr {
 .footer-under-box {
     color: white;
     text-align: center;
-    width: 30%;
+    width: 100%;
     margin: 0px auto;
 }
 
