@@ -55,7 +55,7 @@ body {
 }
 
 .menu-items {
-    width: 40%;
+    width: 100%;
     background-color: #212227;
     padding: 10px;
     display: flex;
@@ -75,16 +75,15 @@ body {
     justify-content: center;
     justify-items: center;
     flex-direction: column;
-    width: 40%;
     margin: 0 auto;
-    border: 1px solid rgb(63, 61, 61);
+    border: 1px solid rgb(65, 62, 62);
 }
 
 select {
     color: white;
     background-color: #212227;
     border-radius: 5px;
-    border: 1px solid rgb(77, 72, 72);
+    border: 1px solid rgb(65, 62, 62);
     outline: 0;
     padding: 15px 85px;
     border-radius: 5px;
@@ -93,12 +92,6 @@ select {
 }
 
 @media only screen and (max-width: 650px) {
-    .menu-items  {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 650px) {
     .content  {
         width: 100%;
     }
@@ -110,21 +103,9 @@ select {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .menu-items  {
-        width: 80%;
-    }
-}
-
 
 @media only screen and (min-width: 1300px) {
     .content  {
-        width: 40%;
-    }
-}
-
-@media only screen and (min-width: 1300px) {
-    .menu-items  {
         width: 40%;
     }
 }
@@ -132,7 +113,7 @@ select {
 
 .menu-box {
     margin: 0 auto;
-    width: 40%;
+    width: 100%;
     background-color: #24252a;
     height: 50px;
     padding: 10px;
