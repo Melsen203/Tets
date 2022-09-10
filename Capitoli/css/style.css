@@ -78,6 +78,10 @@ body {
     border: 1px solid rgb(65, 62, 62);
 }
 
+.content img {
+    width: 100%;
+}
+
 select {
     color: white;
     background-color: #212227;
