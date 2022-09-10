@@ -27,7 +27,6 @@ body {
     display: flex;
     align-items: center;
     font-size: 15px;
-    
 }
 
 .help {
@@ -115,9 +114,8 @@ select {
     margin: 0 auto;
     width: 100%;
     background-color: #24252a;
-    height: 50px;
-    padding: 10px;
     display: flex;
+    padding: 10px;
     align-items: center;
 }
 
@@ -137,7 +135,8 @@ select {
     gap: 15px;
     color: white;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
+    flex-wrap: wrap;
 }
 
 .border {
