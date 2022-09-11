@@ -1,5 +1,5 @@
 header {
-    background-color: #24252a;
+    background-color: #1a1f25;
 }
 
 header a {
@@ -7,7 +7,7 @@ header a {
 }
 
 .navbar {
-    min-height: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -16,7 +16,8 @@ header a {
 
 
 .navbar img {
-    width: 75%;
+    width: 25%;
+    margin: 15px;
     margin-left: 15px;
     display: flex;
 }
