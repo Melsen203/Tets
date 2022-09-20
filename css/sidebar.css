@@ -1,0 +1,149 @@
+.side-bars {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar {
+    background-color: #24252a;
+    min-height: 400px;
+    margin-left: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.content-side {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-side {
+    width: 100%;
+    height: 20%;
+    background-color: #24252a;
+    border: 1px solid rgb(51, 74, 122);
+    border-radius: 0 10px 00px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    transition: all 0.2s ease 0s;
+}
+
+.item-side:hover {
+    border: 1px solid orange;
+}
+
+.item-side img {
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.number {
+    margin-left: 10px;
+}
+
+.namebox {
+    width: 85%;
+}
+
+.namebox p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.namebox a {
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+.namebox p:hover {
+    color: rgb(80, 121, 209);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: #263c5a;
+    
+}
+
+.content-side-wrap {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-wrap {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(51, 74, 122);
+    border-radius: 0 10px 0 10px;
+    display: flex;
+    transition: all 0.2s ease 0s;
+}
+
+.item-wrap:hover {
+    border: 1px solid orange;
+}
+
+.item-wrap a img {
+    width: 135px;
+    height: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.name-item-wrap h3 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.name-item-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 62%;
+}
+
+.description-wrap {
+    margin-top: 10px;
+}
+
+.description-wrap p {
+    color: rgb(68, 131, 194);
+}
+
+.description-wrap span {
+    color: rgb(253, 254, 255);
+}
+
+.description-wrap button {
+    background-color: rgb(80, 121, 209);
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.description-wrap button:hover {
+    background-color: rgb(53, 83, 148);
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .side-bars {
+        width: 100%;
+    }
+}

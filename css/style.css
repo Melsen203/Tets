@@ -1,212 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
-
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     text-decoration: none;
+    list-style: none;
     font-family: 'Overlock SC', sans-serif;
-    box-sizing: border-box;
+    color: white;
 }
 
 body {
-    background-color: #263c5a;
-}
+    background-color: #1a1a1a;
+ }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    background-color: #24252a;
-    margin: 0px auto;
-    margin-top: 15px;
-    padding: 5px;
-}
-
-#content {
-    width: 50%;
-    background-color: #24252a;
-    margin: 0 auto;
-    padding: 5px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 1300px) {
-    #content  {
-        width: 100%;
+ @media only screen and (max-width: 1300px) {
+    body  {
+        background-color: #24252a;
     }
 }
 
-.name-box {
-    color: rgb(68, 131, 194);
-    width: 100%;
-}
-
-.name-box h3 {
-    padding: 10px;
-    font-size: 20px;
-}
-
-.name-wrap {
+.notice-box {
+    max-width: 100%;
+    background: rgb(0,95,255);
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
     display: flex;
-    flex-direction: column;
-    width: 200px;
-    margin: 0 auto;
+    padding: 15px;
+    justify-content: center;
 }
 
-.name-wrap a button {
-    padding: 10px;
-    background-color: rgb(80, 121, 209);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    cursor: pointer;
-    transition: all 0.2s ease 0s;
-    font-size: 15px;
-}
-
-.name-wrap a button:hover {
-    background-color: rgb(53, 83, 148);
-}
-
-.name-wrap h2 {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-.name-wrap img {
-    width: 200px;
-    height: 270px;
-    border: 1px solid #263c5a;
-    border-radius: 5px;
-}
-
-.description {
-    width: 70%;
-    height: 300px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-@media only screen and (max-width: 780px) {
-    .description  {
-        width: 100%;
-    }
-}
-
-.border {
-    width: 100%;
-}
-
-.desc-wrap {
-    padding: 10px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.desc-wrap p {
-    display: flex;
-    align-items: center;
-}
-
-.material-symbols-outlined {
+.container .material-symbols-outlined {
     color: rgb(80, 121, 209);
-    margin-right: 10px;
     cursor: default;
 }
 
-.genres {
-    margin-left: 10px;
+.side-bar .material-symbols-outlined {
+    color: rgb(80, 121, 209);
+    cursor: default;
+}
+
+main {
     display: flex;
-    gap: 3px;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+
 }
 
-.genres a {
-    color: white;
-    background-color: rgb(80, 121, 209);
-    padding: 4px 5px;
-    border-radius: 5px;
-}
-
-.genres a:hover {
-    background-color: rgb(53, 83, 148);
-}
-
-.help-items a {
-    background-color: rgb(66, 108, 197);
-    color: white;
-    padding: 10px 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    transition: all 0.2s ease 0s;
-}
-
-.help-items p {
+.notice {
+    width: 40%;
     display: flex;
     align-items: center;
-    font-size: 15px;
-    
+    justify-content: center;
+    text-align: center;
 }
 
-#problem-help {
-    background-color: rgb(177, 51, 51);
+.notice h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.notice a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 1300px) {
-    #problem-help  {
-        padding: 10px 65px;
+    .notice a {
+        flex-direction: column;
     }
 }
 
-
-#problem-help:hover {
-    background-color: rgb(248, 63, 63);
-}
-
-.help {
-    margin: 0;
+.notice .material-symbols-outlined {
     color: white;
-}
-
-.help-items {
     display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    width: 100%;
-    justify-content: flex-end;
-    margin-top: 20px;
+    align-items: center;
 }
 
-.help-items a:hover {
-    background-color: rgb(53, 83, 148);
+.notice .fa-brands {
+    display: flex;
+    align-items: center;
 }
 
-hr {
-    border: 1px solid rgb(80, 121, 209);
+.notice p {
+    font-size: 17px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 1300px) {
-    .content  {
+    .notice  {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 1300px) {
-    .help-items  {
-        justify-content: center;
+@media only screen and (max-width: 280px) {
+    .nav a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .notice  {
+        font-size: 13px;
     }
 }
 
 .footer {
-    margin-top: 15px;
     width: 100%;
     background-color: #24252a;
 }
@@ -289,7 +188,7 @@ hr {
     padding-bottom: 20px;
 }
 
-.fa-brands:hover {
+.footer .fa-brands:hover {
     color: rgb(80, 121, 209);
 }
 
