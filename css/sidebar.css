@@ -6,7 +6,6 @@
 
 .side-bar {
     background-color: #2c333e;
-    min-height: 400px;
     margin-left: 20px;
     border-radius: 10px;
 }
@@ -147,6 +146,23 @@
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.nodb {
+    display: none;
+}
+
+.content-account {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-account p {
+    color: rgb(68, 131, 194);
+}
+
+.content-account a:hover {
+    text-decoration: underline;
 }
 
 .mr {
