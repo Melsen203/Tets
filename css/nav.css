@@ -32,15 +32,16 @@ header a {
     height: 35px;
     font-size: 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
-    background-color: rgb(80, 121, 209);
+    background-color: rgb(64, 159, 255);;
     margin-right: 5px;
+    transition: all 0.2s ease 0s;
 }
 
 .nav-menu button:hover {
-    background-color: rgb(53, 83, 148);
+    background-color: rgb(72, 111, 197);
 }
 
 .hamburger {
@@ -76,7 +77,7 @@ header a {
 }
 
 .hidden-menu.active {
-    background-color: #24252a;
+    background-color: #2c333e;
     width: 100%;
     height: 100px;
     display: block;
@@ -86,7 +87,7 @@ header a {
 }
 
 .search-bar input {
-    background-color: rgb(24, 26, 26);
+    background-color: #242a33;
     width: 205px;
     padding: 10px;
     color: rgb(128, 122, 122);
@@ -95,7 +96,7 @@ header a {
     display: flex;
     margin-top: 10px;
     flex-wrap: wrap;
-    border: 1px solid rgb(65, 62, 62);
+    border: 1px solid #3c4d68;
     font-size: 15px;
 }
 
@@ -106,15 +107,15 @@ header a {
 }
 
 .search input {
-    background-color: rgb(24, 26, 26);
+    background-color: #242a33;
     width: 250px;
     padding: 10px;
     color: rgb(128, 122, 122);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid rgb(65, 62, 62);
+    border: 1px solid #3c4d68;
     margin-right: 10px;
     font-size: 15px;
 }
@@ -140,10 +141,10 @@ header a {
     height: 35px;
     font-size: 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
-    background-color: rgb(80, 121, 209);
+    background-color: rgb(64, 159, 255);;
     margin-right: 5px;
 }
 
