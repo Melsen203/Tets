@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
 }
 
@@ -43,10 +46,15 @@
 
 .info h3 {
     font-size: 16px;
+    color: #6e94d1;
+}
+
+.info p {
+    color: #6f82a0;
 }
 
 .info h4 {
-    color: rgb(97, 171, 255);
+    color: #6e94d1;
     font-size: 15px;
 }
 
@@ -56,7 +64,7 @@ span {
 }
 
 span:hover {
-    color: rgb(62, 139, 202);
+    color: #6e94d1;
     transition: all 0.2s ease 0s;
 }
 
@@ -98,7 +106,7 @@ span:hover {
 .container img {
     width: 150px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     transition: all 0.2s ease 0s;
 }
@@ -149,20 +157,13 @@ span:hover {
     display: flex;
     align-items: center;
     height: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
 }
+
+hr {
+    border: 1px solid #3c4d68;
+}    
 
 .name-container .material-symbols-outlined {
     margin-right: 10px;
     color: rgb(64, 159, 255);
 }
-
-hr {
-    border: 1px solid #242a33;
-}
-
-
-
-
-
-
