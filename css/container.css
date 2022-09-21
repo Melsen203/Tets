@@ -21,6 +21,7 @@
     justify-content: center;
     justify-items: center;
     opacity: 1.0;
+    margin-top: 20px;
 }
 
 .item {
@@ -119,7 +120,7 @@ span:hover {
 
 @media only screen and (max-width: 1300px) {
     .container {
-        max-width: 100%;
+        max-width: 95%;
         flex-wrap: wrap;
     }
 }
@@ -153,7 +154,7 @@ span:hover {
 
 .name-container h2 {
     color: rgb(64, 159, 255);
-    margin-left: 5px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     height: 100%;
@@ -166,4 +167,7 @@ hr {
 .name-container .material-symbols-outlined {
     margin-right: 10px;
     color: rgb(64, 159, 255);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
