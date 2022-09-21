@@ -36,16 +36,17 @@
 }
 
 .link a button {
-    background-color: rgb(80, 121, 209);
+    background-color: rgb(64, 159, 255);;
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     margin-right: 5px;
+    transition: all 0.2s ease 0s;
 }
 
 .link a button:hover {
-    background-color: rgb(53, 83, 148);
+    background-color: rgb(72, 111, 197);
     color: white;
 }
 
