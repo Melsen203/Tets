@@ -106,7 +106,7 @@ span:hover {
 
 .container img {
     width: 150px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     display: flex;
     transition: all 0.2s ease 0s;
