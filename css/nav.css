@@ -1,5 +1,5 @@
 header {
-    background-color: #24252a
+    background-color: #2c333e;
 }
 
 header a {
@@ -17,7 +17,7 @@ header a {
 
 .navbar img {
     width: 75%;
-    margin-left: 15px;
+    margin-left: 20px;
     display: flex;
 }
 
@@ -46,11 +46,11 @@ header a {
 .hamburger {
     display: none;
     cursor: pointer;
-    border: 1px solid rgb(65, 62, 62);
-    padding: 5px 7px;
+    border: 1px solid #3c4d68;
+    padding: 5px 13px;
     border-radius: 5px;
-    background-color: #24252a;
-    margin-right: 10px;
+    background-color: #2c333e;
+    margin-right: 20px;
 }
 
 .bar {
