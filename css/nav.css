@@ -50,7 +50,6 @@ header a {
     border: 1px solid rgb(58, 61, 71);
     padding: 5px 13px;
     border-radius: 5px;
-    background-color: #2c333e;
     margin-right: 20px;
 }
 
@@ -97,7 +96,7 @@ header a {
     display: flex;
     margin-top: 10px;
     flex-wrap: wrap;
-    border: 1px solid #3c4d68;
+    border: 1px solid rgb(58, 61, 71);
     font-size: 15px;
 }
 
@@ -116,7 +115,7 @@ header a {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #3c4d68;
+    border: 1px solid rgb(58, 61, 71);
     margin-right: 10px;
     font-size: 15px;
 }
