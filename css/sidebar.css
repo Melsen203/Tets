@@ -81,18 +81,21 @@
 
 .content-side-wrap {
     width: 100%;
-    margin: 5px;
     display: flex;
     flex-direction: column;
 }
 
 .item-wrap {
-    width: 100%;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px;
     display: flex;
     transition: all 0.2s ease 0s;
     margin: 10px;
     align-items: center;
+    border: 1px solid #2c333e;
+}
+
+.item-wrap:hover {
+    border: 1px solid #3c4d68;
 }
 
 .item-wrap a img {
