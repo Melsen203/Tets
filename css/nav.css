@@ -115,7 +115,7 @@ header a {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid rgb(58, 61, 71);
+    border: 2px solid rgb(58, 61, 71);
     margin-right: 10px;
     font-size: 15px;
 }
