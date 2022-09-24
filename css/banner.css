@@ -36,18 +36,17 @@
 }
 
 .link a button {
-    background-color: rgb(64, 159, 255);;
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
     padding: 7px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     margin-right: 5px;
-    transition: all 0.2s ease 0s;
+    transition: all 1s ease 0s;
 }
 
 .link a button:hover {
-    background-color: rgb(72, 111, 197);
-    color: white;
+    background: rgb(0,95,255);
 }
 
 @media only screen and (max-width: 1300px) {
