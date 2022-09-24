@@ -104,13 +104,14 @@ span:hover {
     background-color: rgb(148, 48, 48);
 }
 
-.container img {
+.container .item img {
     width: 150px;
     margin: 5px;
     border-radius: 10px;
     display: flex;
     transition: all 0.2s ease 0s;
     opacity: 85%;
+    border: 2px solid #6e94d175;
 }
 
 .container img:hover {

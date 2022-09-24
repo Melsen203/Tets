@@ -26,7 +26,8 @@
 
 .banner img {
     width: 50px;
-    padding: 1px;
+    padding: 3px;
+    margin-left: 5px;
 }
 
 
@@ -42,11 +43,12 @@
     border: none;
     cursor: pointer;
     margin-right: 5px;
-    transition: all 1s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .link a button:hover {
-    background: rgb(0,95,255);
+    background: linear-gradient(90deg, rgb(46, 117, 240) 0%, rgb(73, 160, 223) 45%, rgb(47, 157, 179) 100%);
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1300px) {
