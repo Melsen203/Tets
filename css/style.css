@@ -19,7 +19,7 @@ body {
     display: flex;
     padding: 0px;
     justify-content: center;
-    height: 3px;
+    height: 4px;
 }
 
 .container .material-symbols-outlined {
