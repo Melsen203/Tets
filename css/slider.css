@@ -52,6 +52,10 @@
   border-radius: 5px;
 }
 
+.card-image img {
+  border-radius: 10px;
+}
+
 .card-image .card-img{
   height: 100%;
   width: 100%;
