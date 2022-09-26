@@ -1,0 +1,27 @@
+.menu-box {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu-box a {
+    color: rgb(64, 159, 255);
+    margin-left: 0px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 650px) {
+    .menu-box  {
+        font-size: 12px;
+    }
+}

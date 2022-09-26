@@ -15,10 +15,10 @@
 }
 
 .slide-container {
-  width: 95%;
+  width: 100%;
 }
 .slide-content{
-  margin: 20px 30px;
+  margin: 20px 60px;
   overflow: hidden;
   padding: 10px;
   min-height: 325px;
@@ -65,6 +65,10 @@
   font-size: 15px;
 }
 
+.card-image a p:hover {
+  color: #3d66cc;
+}
+
 .name p {
   text-align: center;
   font-size: 15px;
@@ -79,6 +83,7 @@
 
 .card-image .card-img:hover {
   padding: 0px;
+  opacity: 70%;
 }
 
 .swiper-navBtn{
