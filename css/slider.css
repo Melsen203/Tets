@@ -15,12 +15,11 @@
   }
 }
 
-.slide-container{
-  max-width: 1120px;
-  width: 100%;
+.slide-container {
+  width: 90%;
 }
 .slide-content{
-  margin: 30px 50px;
+  margin: 15px 45px;
   overflow: hidden;
   padding: 10px;
 }
