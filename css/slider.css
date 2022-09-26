@@ -34,3 +34,23 @@
 .slider .slider-content a p:hover {
     color: white;
 }
+
+@media only screen and (max-width: 650px) {
+    .slider {
+        width: 95%;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .slider {
+        width: 95%;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .slider {
+        width: 50%;
+    }
+}
