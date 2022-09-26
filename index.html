@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="css/slider.css">
         <link rel="stylesheet" href="css/warning.css">
         <link rel="stylesheet" href="css/loader.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/c9e6235f1b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -74,48 +76,52 @@
             <p>Il sito si trova in manutenzione, la Home e i Manga al momento non sono disponibili. Entra sul nostro canale <a href="https://t.me/unlimitedscans" target="_blank">Telegram</a> per rimanere aggiornato.</p>
         </div>
 
-        <div class="slider">
-            <div class="slider-content">
-                <a href="#">
-
-                    <img src="/Images/player.jpg">
-                    <p>Player</p>
+        <div id="container">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <a href="#">
+                                    <img src="images/magic-emperor.png" alt="" class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/player.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/mercenary-enrollment.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                        </div>
                     
-                </a>
-            </div>
-            <div class="slider-content">
-                <a href="#">
-
-                    <img src="/Images/solo-max-level-newbie.png">
-                    <p>Solo Max Newbie</p>
-
-                </a>
-            </div>
-            <div class="slider-content">
-                <a href="">
-
-                    <img src="/Images/tbate1.jpg">
-                    <p>Tbate</p>
-
-                </a>
-            </div>
-            <div class="slider-content">
-                <a href="#">
-
-                    <img src="/Images/Solo-leveling.png">
-                    <p>Solo Leveling</p>
-
-                </a>
-            </div>
-            <div class="slider-content">
-                <a href="#">
-
-                    <img src="/Images/Tensura1.png">
-                    <p>Player</p>
-                    
-                </a>    
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
+
+
 
     <main>
 
@@ -490,6 +496,11 @@
         </div>   
 
     </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
     <script>
         function myFunction() {
