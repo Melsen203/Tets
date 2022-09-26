@@ -22,8 +22,6 @@
     justify-items: center;
     opacity: 1.0;
     margin-top: 20px;
-    -webkit-box-shadow: 0px 0px 7px 1px rgba(110,148,209,0.44); 
-box-shadow: 0px 0px 7px 1px rgba(110,148,209,0.44);
 }
 
 .item {
