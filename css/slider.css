@@ -3,7 +3,6 @@
 
 #container {
   margin: 0 auto;
-  background-color: #2c333e;
   width: 65%;
   padding: 0px;
   border-radius: 10px;
@@ -40,19 +39,22 @@
   height: 40px;
   width: 40px;
 }
+
 .overlay::after{
   border-radius: 0 25px 0 0;
 }
+
 .card-image{
   position: relative;
   height: 250px;
   width: 180px;
   margin: 0 auto;
+  border-radius: 5px;
 }
+
 .card-image .card-img{
   height: 100%;
   width: 100%;
-  border-radius: 5px;
   transition: all 0.2s ease 0s;
   padding: 5px;
 }
@@ -64,6 +66,12 @@
 }
 
 .name p {
+  text-align: center;
+  font-size: 15px;
+  color: #6e94d1;
+}
+
+.name p:hover {
   text-align: center;
   font-size: 15px;
   color: #6e94d1;
