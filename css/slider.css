@@ -16,10 +16,10 @@
 }
 
 .slide-container {
-  width: 90%;
+  width: 95%;
 }
 .slide-content{
-  margin: 15px 45px;
+  margin: 15px 30px;
   overflow: hidden;
   padding: 10px;
 }
@@ -44,14 +44,14 @@
 }
 .card-image{
   position: relative;
-  height: 220px;
-  width: 160px;
+  height: 235px;
+  width: 165px;
   margin: 0 auto;
 }
 .card-image .card-img{
   height: 100%;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .name{
   font-size: 18px;
@@ -60,11 +60,11 @@
 }
 
 .swiper-navBtn{
-  color: #6E93f7;
+  color: #3d66cc;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: #4070F4;
+  color: #546db6;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -81,12 +81,12 @@
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: #4070F4;
+  background-color: #9197a7;
 }
 
 @media screen and (max-width: 768px) {
   .slide-content{
-    margin: 0 10px;
+    margin: 0 20px;
   }
   .swiper-navBtn{
     display: none;
