@@ -16,9 +16,12 @@ header a {
 
 
 .navbar img {
-    width: 75%;
+    width: 70%;
     margin-left: 20px;
     display: flex;
+    font-weight: bold;
+    color: rgb(56, 201, 245);
+    font-size: 20px;
 }
 
 .nav-menu {
@@ -36,7 +39,7 @@ header a {
     border-radius: 10px;
     color: white;
     cursor: pointer;
-    background-color: rgb(64, 159, 255);;
+    background-color: rgb(64, 159, 255);
     margin-right: 5px;
     transition: all 0.3s ease 0s;
 }
@@ -49,7 +52,6 @@ header a {
 .hamburger {
     display: none;
     cursor: pointer;
-    border: 1px solid rgb(58, 61, 71);
     padding: 5px 13px;
     border-radius: 5px;
     margin-right: 20px;
@@ -63,7 +65,7 @@ header a {
     border-radius: 10px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background-color: rgb(113, 116, 126);
+    background-color: rgb(64, 159, 255);
 }
 
 .hidden-menu {
@@ -72,10 +74,6 @@ header a {
     height: 60px;
     display: none;
     transition: all 5s ease 1s;
-}
-
-.logo {
-    display: block;
 }
 
 .hidden-menu.active {
