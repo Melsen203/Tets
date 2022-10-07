@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 * {
     padding: 0;
@@ -6,19 +6,19 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Overlock SC', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body {
-    background-color: #263c5a;
+    background-color: #242a33;
 }
 
 
 .help-items a {
-    background-color: rgb(66, 108, 197);
+    background-color: rgb(64, 159, 255);
     color: white;
-    padding: 10px 10px;
-    border-radius: 5px;
+    padding: 8px 8px;
+    border-radius: 10px;
     font-size: 15px;
     transition: all 0.2s ease 0s;
 }
@@ -26,7 +26,14 @@ body {
 .help-items p {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+.arrow {
+    background-color: #2c333e73;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
 }
 
 .help {
@@ -55,7 +62,7 @@ body {
 
 .menu-items {
     width: 100%;
-    background-color: #212227;
+    background-color: #2c333e;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -74,17 +81,16 @@ body {
     justify-content: center;
     justify-items: center;
     flex-direction: column;
-    margin: 0 auto;
-    border: 1px solid rgb(65, 62, 62);
-    background-color: #212227;
+    margin: 20px auto;
+    background-color: #2c333e;
 }
 
 #content {
-    background-color: #24252a;
+    background-color: #2c333e;
     margin: 0 auto;
     padding: 5px;
     margin-top: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -114,12 +120,12 @@ body {
 
 select {
     color: white;
-    background-color: #212227;
+    background-color: #2c333e;
     border: 1px solid rgb(65, 62, 62);
     outline: 0;
-    padding: 13px 30px;
-    border-radius: 5px;
-    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 17px;
     -webkit-appearance: none;
 }
 
@@ -166,7 +172,7 @@ select {
 .menu-box {
     margin: 0 auto;
     width: 100%;
-    background-color: #24252a;
+    background-color: #2c333e;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -197,13 +203,13 @@ select {
 }
 
 hr {
-    border: 1px solid rgb(80, 121, 209);
+    border: 1px solid #3c4d68;
 }
 
 .footer {
     margin-top: 15px;
     width: 100%;
-    background-color: #24252a;
+    background-color: #2c333e;
 }
 
 .footer-content {
