@@ -198,6 +198,41 @@ select {
     flex-wrap: wrap;
 }
 
+.notice-box {
+    max-width: 100%;
+    background: rgb(0,95,255);
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    height: 4px;
+}
+
+.nodb {
+    display: none;
+}
+
+.notice {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.notice h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.notice a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .border {
     width: 100%;
 }
