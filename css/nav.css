@@ -12,12 +12,13 @@ header a {
     align-items: center;
     justify-content: left;
     justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
 }
 
 
 .navbar img {
     width: 70%;
-    margin-left: 20px;
     display: flex;
     font-weight: bold;
     color: rgb(56, 201, 245);
@@ -27,8 +28,13 @@ header a {
 .nav-menu {
     display: flex;
     justify-content: center;
-    flex-basis: 50%;
     align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .navbar {
+        width: 95%;
+    }
 }
 
 .nav-menu button {
@@ -54,7 +60,6 @@ header a {
     cursor: pointer;
     padding: 5px 13px;
     border-radius: 5px;
-    margin-right: 20px;
 }
 
 .bar {
