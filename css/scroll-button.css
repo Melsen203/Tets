@@ -1,0 +1,22 @@
+#backtop {
+    position: fixed;
+    bottom: 20px; right: 20px;
+    z-index: 999;
+    visibility: none;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.a3s;
+  }
+  
+  #backtop.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .arrow {
+    background-color: #44567473;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}  
+  
