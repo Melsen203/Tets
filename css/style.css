@@ -14,12 +14,11 @@ body {
 
 .notice-box {
     max-width: 100%;
-    background: rgb(0,95,255);
-    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
+    background: #2e7eff;
     display: flex;
     padding: 0px;
     justify-content: center;
-    height: 4px;
+    height: 3px;
 }
 
 .container .material-symbols-outlined {

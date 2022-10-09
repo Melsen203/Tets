@@ -18,11 +18,18 @@ header a {
 
 
 .navbar img {
-    width: 70%;
+    width: 15%;
+    padding: 10px;
     display: flex;
     font-weight: bold;
     color: rgb(56, 201, 245);
-    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .nav-menu {
@@ -64,13 +71,13 @@ header a {
 
 .bar {
     display: block;
-    width: 30px;
+    width: 25px;
     height: 2px;
-    margin: 6px auto;
+    margin: 4px auto;
     border-radius: 10px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background-color: rgb(64, 159, 255);
+    background-color: #2e7eff;
 }
 
 .hidden-menu {
@@ -173,11 +180,11 @@ header a {
     }
 
     .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(12px) rotate(40deg);
     }
 
     .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-0px) rotate(-40deg);
     }
 
     .nav-menu {
