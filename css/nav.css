@@ -19,6 +19,8 @@ header a {
 
 .navbar img {
     width: 170px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-menu {
