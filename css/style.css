@@ -168,4 +168,21 @@ main {
     color: rgb(80, 121, 209);
 }
 
+.border {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border hr {
+    border: 1px solid #2e7eff;
+}
+
+@media only screen and (max-width: 1300px) {
+    .border  {
+        width: 95%;
+    }
+}
+
 
