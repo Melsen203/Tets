@@ -95,18 +95,23 @@ header a {
     padding: 10px;
     color: rgb(128, 122, 122);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     margin-top: 10px;
     flex-wrap: wrap;
-    border: 1px solid rgb(58, 61, 71);
+    border: 2px solid rgb(58, 61, 71);
     font-size: 15px;
+    transition: all 0.3s ease 0s;
 }
 
 .search-bar input:focus {
     outline: none;
     color: rgb(128, 122, 122);
     font-size: 15px;
+}
+
+.search-bar input:focus:hover {
+    border: 2px solid #2e7eff;
 }
 
 .search input {
@@ -122,12 +127,17 @@ header a {
     margin-right: 10px;
     font-size: 15px;
     align-items: center;
+    transition: all 0.3s ease 0s;
 }
 
 .search input:focus {
     outline: none;
     color: rgb(128, 122, 122);
     font-size: 15px;
+}
+
+.search input:focus:hover{
+    border: 2px solid #2e7eff;
 }
 
 .content-menu {
