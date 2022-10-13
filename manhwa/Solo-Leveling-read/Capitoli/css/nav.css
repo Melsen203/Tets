@@ -9,19 +9,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .nav-box-nav {
     display: flex;
     align-items: center;
-    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
 }
 
 .nav-box-nav select {
-    border: none;
+    outline: 0;
     background-color: #2c333e;
-    color: white;
     padding: 0 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    -webkit-appearance: none;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -32,10 +38,12 @@ header {
 
 .nav-box-info {
     color: white;
+    position: relative;
 }
 
 .nav-box-settings {
     color: white;
+    position: relative;
 }
 
 .material-symbols-outlined {
