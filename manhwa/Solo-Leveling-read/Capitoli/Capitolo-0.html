@@ -17,197 +17,53 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <a href="https://unlimitedscans.it" class="logo"> <img src="manhwa/Solo-Leveling-read/Images/logo-pre1.png"></a>
 
-            <ul class="nav-menu">
-                <div class="search">
-                    <input type="text" list="search" placeholder="Cerca su unlimitedscans.it">
-                </div>
-                <button><a href="Generi">Generi </a></button>
-                <button><a href="Archivio">Archivio</a></button>
-            </ul>
+        <div class="nav-content">
 
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="nav-box-info">
+                <span class="material-symbols-outlined">
+                    home
+                    </span>
+                    <span class="material-symbols-outlined">
+                        menu_open
+                        </span>
+
             </div>
 
-        </nav>
-        <div class="hidden-menu">
-            <div class="content-menu">
-                <button><a href="Generi">Generi </a></button>
-                <button><a href="Archivio">Archivio</a></button>
-                <div class="search-bar">
-                    <input type="text" placeholder="Cerca su unlimitedscans.it">
-                </div>             
+            <div class="nav-box-nav">
+                <span class="material-symbols-outlined">
+                    arrow_left
+                    </span>
+                
+                <select name="chapters" id="cap">
+                    <option value="c">1</option>
+                </select>
+
+                <span class="material-symbols-outlined">
+                    arrow_right
+                    </span>
+
             </div>
+
+            <div class="nav-box-settings">
+                <span class="material-symbols-outlined">
+                    settings
+                    </span>
+            </div>
+
         </div>
+
         <div class="notice-box">
-        </div>        
+        </div> 
+
     </header>
 
-    <!-- Content start -->
-
-    <div class="content">
-
-        <!-- Links Bar -->
-
-        <div class="menu-box">
-            <div class="menu-wrap">
-                <a href="https://unlimitedscans.it">Home</a> <span class="material-symbols-outlined help">
-                    keyboard_arrow_right
-                    </span>
-                <a href="/Archivio/Manhwa">Manhwa</a> <span class="material-symbols-outlined help">
-                    keyboard_arrow_right
-                    </span>
-                <a href="/manhwa/Solo-Leveling-read/solo-leveling">Solo Leveling</a> <span class="material-symbols-outlined help">
-                    keyboard_arrow_right
-                    </span>
-                <h3>Capitolo 0</h3>
-            </div>
-        </div>
-        <div class="border">
-            <hr>
-        </div>
-    
-        <!-- Help Items -->
-
-        <div class="menu-items" style="padding: 0; padding-top: 10px;">
-            <select name="links" id="chapters" size="1" onchange="window.location.href=this.value">
-                <option value="/manhwa/Solo-Leveling-read/solo-leveling/Capitoli/Capitolo-0">Capitolo 0</option>
-            </select>
-    
-        </div>
-        <div class="menu-items sticky">
-            <div class="help-items">
-            <a href="/manhwa/Solo-Leveling-read/solo-leveling">
-                <p><span class="material-symbols-outlined help">
-                    keyboard_arrow_left
-                    </span> Precedente</p>
-            </a>
-            <a href="/manhwa/Solo-Leveling-read/Capitoli/Capitolo-1">
-                <p>Successivo <span class="material-symbols-outlined help">
-                    keyboard_arrow_right
-                    </span></p>
-            </a>
-            </div>
-        </div>
-
-        <!-- Chapters -->
-
-        <img src="../Capitoli/images/images-tool/Copertina.png">
-        <img src="../Capitoli/images/images-cap0/1.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/2.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/3.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/4.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/5.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/6.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/7.jpg cap 0.jpg">
-        <img src="../Capitoli/images/images-cap0/8.jpg cap 0.jpg">
-
-
-        <!-- End Chapters-->
-
-        <div class="menu-items" style="padding: 0; padding-top: 10px;">
-            <select name="links" id="chapters" size="1" onchange="window.location.href=this.value">
-                <option value="/manhwa/Solo-Leveling-read/solo-leveling/Capitoli/Capitolo-0">Capitolo 0</option>
-            </select>
-    
-        </div>
-        <div class="menu-items sticky">
-            <div class="help-items">
-            <a href="/manhwa/Solo-Leveling-read/solo-leveling">
-                <p><span class="material-symbols-outlined help">
-                    keyboard_arrow_left
-                    </span> Precedente</p>
-            </a>
-            <a href="/manhwa/Solo-Leveling-read/Capitoli/Capitolo-1">
-                <p>Successivo <span class="material-symbols-outlined help">
-                    keyboard_arrow_right
-                    </span></p>
-            </a>
-            </div>
-        </div>
-
+    <div class="container">
+        <img src="/manhwa/Solo-Leveling-read/Capitoli/images/images-cap0/1.jpg cap 0.jpg">
+        <img src="/manhwa/Solo-Leveling-read/Capitoli/images/images-cap0/2.jpg cap 0.jpg">
+        <img src="/manhwa/Solo-Leveling-read/Capitoli/images/images-cap0/3.jpg cap 0.jpg">
+        <img src="/manhwa/Solo-Leveling-read/Capitoli/images/images-cap0/4.jpg cap 0.jpg">
     </div>
-
-    <div id="content">
-        <div class="name-box">
-            <h3>Commenti</h3>
-            <hr>
-        </div>
-        <div id="disqus_thread" style="padding: 20px;"><h2>Ciao</h2></div>
-        <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://unlimitedscans.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-        <script id="dsq-count-scr" src="//unlimitedscans.disqus.com/count.js" async></script>
-    </div>
-
-    <span class="material-symbols-outlined arrow" id="backtop" onclick="totop()">
-        expand_less
-        </span>
-
-    <script src="js/scroll-button.js"></script>
-
-    <!-- Footer -->
-
-    <div class="footer">
-
-        <div class="footer-content">
-            <h3>Seguici su</h3>
-        </div>    
-
-        <div class="footer-items">
-
-            <a href="https://www.instagram.com/unlimitedscans/?hl=it/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://discord.gg/XgR6HBKVeT" target="_blank">
-                <i class="fa-brands fa-discord"></i>
-            </a>
-            <a href="https://t.me/unlimitedscans" target="_blank">
-                <i class="fa-brands fa-telegram"></i>
-            </a>
-            <a href="https://www.tiktok.com/@unlimitedscans?lang=it-IT" target="_blank">
-                <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <br>
-
-        </div>
-        <hr>
-        <div class="footer-box">
-            <h3>Link utili</h3>
-            <div class="footer-links">
-                <a href="/terms">Termini e Condizioni</a><br>
-                <a href="/privacy">Informativa sulla Pryvacy</a>
-            </div>
-        </div>
-        <div class="footer-under-box">
-            <h2>© Copyright 2022 Unlimited Scans.it</h2>
-            <p>Info Abuse/Contact: info.unlimitedscans@gmail.com</p>
-        </div>   
-
-    </div>
-
-    <script src="js/nav.js"></script>
 
 </body>
 
