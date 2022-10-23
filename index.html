@@ -7,6 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link rel="shortcut icon" type="image" href="Images/favicon.ico">
         <link href="css/container.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="css/sidebar.css">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/banner.css">
@@ -17,6 +18,7 @@
         <link rel="stylesheet" href="css/scroll-button.css">
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/search-mb.css">
         <script src="https://kit.fontawesome.com/c9e6235f1b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <meta name="description" content="Vuoi leggere manga in Italiano? Entra su Unlimitedscans.it, troverai Manga che non sono ancora stati tradotti su altri Siti.">
@@ -24,42 +26,56 @@
     <body>
     
         <header>
-            <nav class="navbar">
-                <a href="https://unlimitedscans.it" class="logo"> <img src="Images/temo1.png"></a>
-
-                <ul class="nav-menu">
-                    <div class="search">
-                        <input type="text" list="search" placeholder="Cerca su unlimitedscans.it">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/temo1.png">
+                </div>
+    
+                <div class="menu-items">
+                    <input type="text" name="" id="" placeholder="Cerca su unlimitedscans.it">
+                </div>
+    
+                <div class="mobile-items">
+                    <div class="search-icon">
+                        <span class="material-symbols-outlined search-input">
+                            search
+                            </span>
+    
+                            <span class="material-symbols-outlined menu-input">
+                                menu
+                                </span>
                     </div>
-                    <button><a href="Generi">Generi </a></button>
-                    <button><a href="Archivio">Archivio</a></button>
-                </ul>
-
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-
-            </nav>
-            <div class="hidden-menu">
-                <div class="content-menu">
-                    <button><a href="Generi">Generi </a></button>
-                    <button><a href="Archivio">Archivio</a></button>
-                    <div class="search-bar">
+                    
+    
+                    <div class="search-bar-hide">
                         <input type="text" placeholder="Cerca su unlimitedscans.it">
-                    </div>             
+    
+                        <div class="close-btn">
+                            <span class="material-symbols-outlined omb">
+                                close
+                                </span>
+                        </div>
+    
+                    </div>
                 </div>
             </div>
-            <div class="notice-box">
-                <div class="notice nodb">
-                <a href="https://t.me/unlimitedscans" target="_blank">
-                <p class="nodb"><b>Attenzione!</b> Il sito si torva in fase di Sviluppo, se trovate bug vi preghiamo di reportarlo scrivendoci sui nostri social.</p>
-                <i class="fa-brands fa-telegram"><p>Entra sul nostro Canale <b>Telegram</b>, per rimanere informato sugli aggiornamenti successivi.</p></i>
+    
+            <div class="hidden-menu">
+                <a href="#">
+                    <button>Generi</button>
                 </a>
-                </div>
-            </div>        
+                <a href="#">
+                    <button>Archivio</button>
+                </a>
+                <a href="#">
+                    <button>Account</button>
+                </a>
+            </div>
+
+            <div class="notice-box"></div>
         </header>
+
+        <script src="js/search-bar.js"></script>
 
         <span class="material-symbols-outlined arrow" id="backtop" onclick="totop()">
             expand_less
@@ -71,10 +87,10 @@
 
         <div class="warning-content nodb">
             <div class="name-container">
-                <h2 id="yellow"><span class="material-symbols-outlined yellow" id="yellow">
+                <h2><span class="material-symbols-outlined">
                     error
                     </span> AVVISO</h2>
-                    <hr id="hr-yellow">
+                    <hr>
              </div>
             <p>Il sito si trova in manutenzione, la Home e i Manga al momento non sono disponibili. Entra sul nostro canale <a href="https://t.me/unlimitedscans" target="_blank">Telegram</a> per rimanere aggiornato.</p>
         </div>
@@ -272,6 +288,31 @@
         </div>
         <div class="border">
             <hr>
+        </div>
+
+        <div class="back nodb">
+            <div class="container-test">
+                <div class="bor">
+                </div>
+
+                <span class="box-1">Accedi</span>
+
+
+                <div class="content-log">
+                    <img src="/Images/padlock-3-128.png">
+
+                    <input type="text" placeholder="Nickname">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Password">
+
+                    <div class="submit">
+                        <button>Accedi</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
         </div>
     
     <main>

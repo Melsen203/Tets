@@ -1,7 +1,7 @@
-const hamburger = document.querySelector(".hamburger");
-const navbar = document.querySelector(".hidden-menu");
+const menu = document.querySelector(".menu-input");
+const hidden = document.querySelector(".hidden-menu");
 
-hamburger.addEventListener ("click", () => {
-    hamburger.classList.toggle("active");
-    navbar.classList.toggle("active");
+menu.addEventListener ("click", () => {
+    menu.classList.toggle("active");
+    hidden.classList.toggle("active");
 } )
